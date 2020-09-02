@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32572" started-at="2020-08-14T18:23:25Z" finished-at="2020-08-14T18:23:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32572" started-at="2020-08-14T18:23:25Z" finished-at="2020-08-14T18:23:58Z">
+      <class name="SeleniumAutomation.EndToEndProject.LearningWebsiteTest">
+        <test-method status="PASS" signature="navigateToHomePage()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@436813f3]" name="navigateToHomePage" is-config="true" duration-ms="13615" started-at="2020-08-14T23:53:25Z" finished-at="2020-08-14T23:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method status="PASS" signature="clickOnLogin()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@436813f3]" name="clickOnLogin" duration-ms="4702" started-at="2020-08-14T23:53:39Z" finished-at="2020-08-14T23:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method status="PASS" signature="performLogin()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@436813f3]" name="performLogin" duration-ms="5232" started-at="2020-08-14T23:53:44Z" finished-at="2020-08-14T23:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method status="PASS" signature="navigateToMyCourses()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@436813f3]" name="navigateToMyCourses" duration-ms="4059" started-at="2020-08-14T23:53:49Z" finished-at="2020-08-14T23:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMyCourses -->
+        <test-method status="PASS" signature="performHover()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@436813f3]" name="performHover" duration-ms="2635" started-at="2020-08-14T23:53:53Z" finished-at="2020-08-14T23:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performHover -->
+        <test-method status="PASS" signature="performLogout()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@436813f3]" name="performLogout" duration-ms="1863" started-at="2020-08-14T23:53:56Z" finished-at="2020-08-14T23:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@436813f3]" name="closeBrowser" is-config="true" duration-ms="383" started-at="2020-08-14T23:53:57Z" finished-at="2020-08-14T23:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumAutomation.EndToEndProject.LearningWebsiteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

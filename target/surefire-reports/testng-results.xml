@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32885" started-at="2020-08-15T01:37:16 IST" finished-at="2020-08-15T01:37:49 IST">
+    <groups>
+    </groups>
+    <test name="Photography Learning Page Test" duration-ms="32885" started-at="2020-08-15T01:37:16 IST" finished-at="2020-08-15T01:37:49 IST">
+      <class name="SeleniumAutomation.EndToEndProject.LearningWebsiteTest">
+        <test-method status="PASS" signature="navigateToHomePage()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@7e7be63f]" name="navigateToHomePage" is-config="true" duration-ms="9192" started-at="2020-08-15T01:37:16 IST" finished-at="2020-08-15T01:37:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method status="PASS" signature="clickOnLogin()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@7e7be63f]" name="clickOnLogin" duration-ms="7131" started-at="2020-08-15T01:37:25 IST" finished-at="2020-08-15T01:37:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method status="PASS" signature="performLogin()[pri:1, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@7e7be63f]" name="performLogin" duration-ms="5765" started-at="2020-08-15T01:37:32 IST" finished-at="2020-08-15T01:37:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method status="PASS" signature="navigateToMyCourses()[pri:2, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@7e7be63f]" name="navigateToMyCourses" duration-ms="4414" started-at="2020-08-15T01:37:38 IST" finished-at="2020-08-15T01:37:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMyCourses -->
+        <test-method status="PASS" signature="performHover()[pri:3, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@7e7be63f]" name="performHover" duration-ms="2847" started-at="2020-08-15T01:37:43 IST" finished-at="2020-08-15T01:37:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performHover -->
+        <test-method status="PASS" signature="performLogout()[pri:4, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@7e7be63f]" name="performLogout" duration-ms="1296" started-at="2020-08-15T01:37:46 IST" finished-at="2020-08-15T01:37:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumAutomation.EndToEndProject.LearningWebsiteTest@7e7be63f]" name="closeBrowser" is-config="true" duration-ms="2139" started-at="2020-08-15T01:37:47 IST" finished-at="2020-08-15T01:37:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumAutomation.EndToEndProject.LearningWebsiteTest -->
+    </test> <!-- Photography Learning Page Test -->
+  </suite> <!-- Suite -->
+</testng-results>

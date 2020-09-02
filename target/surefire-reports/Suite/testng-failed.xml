@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="SeleniumAutomation.EndToEndProject.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Photography Learning Page Test(failed)" parallel="tests">
+    <classes>
+      <class name="SeleniumAutomation.EndToEndProject.LearningWebsiteTest">
+        <methods>
+          <include name="performLogin"/>
+          <include name="performLogout"/>
+          <include name="navigateToHomePage"/>
+          <include name="performHover"/>
+          <include name="navigateToMyCourses"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.EndToEndProject.LearningWebsiteTest -->
+    </classes>
+  </test> <!-- Photography Learning Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

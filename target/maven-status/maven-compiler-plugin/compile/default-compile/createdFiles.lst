@@ -1,0 +1,6 @@
+pageObjects\MyCourseList.class
+SeleniumAutomation\EndToEndProject\Dummy.class
+pageObjects\LandOnLogin.class
+pageObjects\PerformLogout.class
+pageObjects\performMouseHover.class
+resources\ExtentReporterNG.class
