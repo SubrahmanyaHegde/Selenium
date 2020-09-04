@@ -66,7 +66,7 @@ public class LearningWebsiteTest extends BaseClass {
 		Actions action = new Actions(driver);
 		Action hover = action.moveToElement(hoverPerform.getHover()).build();
 		hover.perform();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 	}
 
