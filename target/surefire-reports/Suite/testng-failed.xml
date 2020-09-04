@@ -13,6 +13,7 @@
           <include name="navigateToHomePage"/>
           <include name="performHover"/>
           <include name="navigateToMyCourses"/>
+          <include name="clickOnLogin"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- SeleniumAutomation.EndToEndProject.LearningWebsiteTest -->

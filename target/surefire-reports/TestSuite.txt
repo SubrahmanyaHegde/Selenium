@@ -1,4 +1,67 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.698 s - in TestSuite
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 93.376 s <<< FAILURE! - in TestSuite
+clickOnLogin(SeleniumAutomation.EndToEndProject.LearningWebsiteTest)  Time elapsed: 18.485 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=85.0.4183.83)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'HP', ip: '192.168.1.3', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6c3f6c232891c8ab1cad12107e8ac074
+	at SeleniumAutomation.EndToEndProject.LearningWebsiteTest.clickOnLogin(LearningWebsiteTest.java:39)
+
+performLogin(SeleniumAutomation.EndToEndProject.LearningWebsiteTest)  Time elapsed: 15.055 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
+  (Session info: headless chrome=85.0.4183.83)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'HP', ip: '192.168.1.3', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6c3f6c232891c8ab1cad12107e8ac074
+*** Element info: {Using=name, value=email}
+	at SeleniumAutomation.EndToEndProject.LearningWebsiteTest.performLogin(LearningWebsiteTest.java:47)
+
+navigateToMyCourses(SeleniumAutomation.EndToEndProject.LearningWebsiteTest)  Time elapsed: 15.043 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'My courses')]"}
+  (Session info: headless chrome=85.0.4183.83)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'HP', ip: '192.168.1.3', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6c3f6c232891c8ab1cad12107e8ac074
+*** Element info: {Using=xpath, value=//*[contains(text(),'My courses')]}
+	at SeleniumAutomation.EndToEndProject.LearningWebsiteTest.navigateToMyCourses(LearningWebsiteTest.java:58)
+
+performHover(SeleniumAutomation.EndToEndProject.LearningWebsiteTest)  Time elapsed: 15.033 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@aria-label,'My profile')]/div"}
+  (Session info: headless chrome=85.0.4183.83)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'HP', ip: '192.168.1.3', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6c3f6c232891c8ab1cad12107e8ac074
+*** Element info: {Using=xpath, value=//*[contains(@aria-label,'My profile')]/div}
+	at SeleniumAutomation.EndToEndProject.LearningWebsiteTest.performHover(LearningWebsiteTest.java:67)
+
+performLogout(SeleniumAutomation.EndToEndProject.LearningWebsiteTest)  Time elapsed: 15.06 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Log out')]"}
+  (Session info: headless chrome=85.0.4183.83)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'HP', ip: '192.168.1.3', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6c3f6c232891c8ab1cad12107e8ac074
+*** Element info: {Using=xpath, value=//*[contains(text(),'Log out')]}
+	at SeleniumAutomation.EndToEndProject.LearningWebsiteTest.performLogout(LearningWebsiteTest.java:76)
+
