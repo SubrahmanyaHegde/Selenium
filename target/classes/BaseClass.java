@@ -25,7 +25,8 @@ public class BaseClass {
 				System.getProperty("user.dir")+"\\src\\main\\java\\resources\\constants.properties");
 		prop.load(input);
 
-		String browserName = prop.getProperty("Browser");
+		//String browserName = prop.getProperty("Browser");
+		String browserName = System.getProperty("BROWSER");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
